@@ -7,7 +7,15 @@ pub struct CreateNoteSchema {
 }
 
 #[derive(sqlx::FromRow, Serialize)]
-pub struct GetNoteSchema {
+pub struct NoteSchema {
+    pub note_id: String,
+    pub title: String,
+    pub content: String,
+    pub done: bool
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+pub struct UpdateNoteSchema {
     pub note_id: String,
     pub title: String,
     pub content: String,
