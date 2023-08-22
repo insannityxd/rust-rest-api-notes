@@ -12,7 +12,7 @@
 ⚠ Certifique-se de ter o <a href="https://www.rust-lang.org/tools/install">Rust 🦀</a> instalado na sua `máquina` ou `ambiente de execução` ⚠
 - Clone esse repositório:
 ```
-git clone https://github.com/insannityxd/rust-rest-api-notes
+git clone https://github.com/joaopugsley/rust-rest-api-notes
 ```
 - Acesse o diretório do repositório:
 ```
